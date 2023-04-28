@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "inenga",
+  "version": "${version}",
+  "name": "Inenga",
+  "description": "Generates all of the dimensions at the start.",
+  "authors": ["Quesia"],
+  "contact": {
+    "homepage": "https://github.com/QuesiaSR"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["me.quesia.inenga.Inenga"]
+  },
+  "mixins": ["inenga.mixins.json"],
+  "depends": {
+    "minecraft": "1.16.1"
+  }
+}
